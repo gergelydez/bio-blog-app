@@ -1,0 +1,82 @@
+.contact {
+  color: white;
+  margin: 2rem auto;
+  border-radius: 6px;
+
+  background-image: linear-gradient(
+    to right top,
+    #2fc986,
+    #3ec081,
+    #47b77c,
+    #4faf78,
+    #54a674
+  );
+  border-radius: 6px;
+  max-width: 50rem;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+}
+.contact h2 {
+  font-size: 2.1rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.form label {
+  margin: 0.2rem;
+  font-size: 1.5rem;
+  display: block;
+  
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  background-color: rgba(239, 239, 239, 0.547);
+  resize: none;
+  outline: none;
+}
+
+.controls {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control {
+  padding: 1rem;
+  flex: 1;
+  min-width: 10rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.form button {
+  margin-top: 1rem;
+  font: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-primary-dark);
+  border: 3px solid var(--color-primary);
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(244, 244, 244);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form button:hover {
+  background-color: transparent;
+  color: white;
+}
+@media (max-width: 768px) {
+  .contact {
+    margin: 2rem 3rem;
+  }
+}

@@ -1,0 +1,14 @@
+.btn {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+  border: none;
+  font-size: 5rem;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+}
+.left:hover {
+  transform: translateX(-0.4rem);
+}
+.right:hover {
+  transform: translateX(0.4rem);
+}

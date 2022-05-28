@@ -1,0 +1,13 @@
+.latest {
+  width: 90%;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+
+
+@media (min-width: 768px) {
+  .latest h4 {
+    font-size: 4rem;
+  }
+}

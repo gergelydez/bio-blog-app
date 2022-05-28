@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --color-primary: rgb(43, 184, 64, 0.8);
+  --color-primary-light: rgb(43, 184, 64, 0.5);
+  --color-primary-dark: rgb(0, 128, 0);
+  --color-primary-gradient: linear-gradient(
+    to bottom,
+    var(--color-primary),
+    rgb(41, 126, 59)
+  );
+}
+h1,
+h2,
+h3 {
+  font-family: "Oswald", "Roboto", sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.background {
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.35)
+  );
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(20px);
+}
+.background_colored {
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(20px);
+}
